@@ -4,6 +4,8 @@ import { Name3 } from "./Greet"
 import JsWithCurlyBraces from "./JsWithCurlyBraces"
 import PlayWithProps from "./PlayWithProps"
 import Props from "./Props"
+import Pure_Function from "./Pure_Function"
+import Rendering_List from "./Rendering_List"
 //this method is ok for using compoents but it this file will crowded with lots of compnents with heavy data
 //then i can always move components like (Name1,Name2,Name3,..)to seperate files
 // import React from "react"
@@ -73,6 +75,8 @@ export default function App()
 <PropsInApp  person={{ name:"Bob",sheet_size:25 }} desc = "interesting personality" />
 <Props/>
 <ConditionRendering/>
+<Rendering_List/>
+<Pure_Function/>
     </>
   )
 
